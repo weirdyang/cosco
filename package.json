@@ -1,0 +1,21 @@
+{
+  "name": "svg-img",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx parcel index.html --no-cache",
+    "build": "npx parcel build index.html --no-optimize"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.1.2",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "resize-observer-polyfill": "^1.5.1"
+  }
+}
